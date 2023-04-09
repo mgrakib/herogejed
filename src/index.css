@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.page-container {
+    @apply py-5 px-16
+}
+
+.active {
+    @apply font-bold text-blue-700
+}
+
+.default{
+    @apply hover:text-blue-500 duration-150 font-semibold
+}
+
+.btn-outline {
+    @apply border border-[#35F4F4] py-3 px-5 rounded-full hover:bg-[#22D3EE] font-bold duration-200
+}
+.btn-bg {
+    @apply bg-[#3DF7F6] py-3 px-5 rounded-full hover:bg-[#22D3EE] font-bold duration-200
+}
